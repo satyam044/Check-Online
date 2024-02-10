@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 19, 19);
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+.container{
+    height: 10vh;
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    transition: all 1s ease-in;
+}
+.container .img{
+    height: 80%;
+    width: 20%;
+    margin:0 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.container .img img{
+    width: 110%;
+    object-fit: contain;
+    opacity: 0;
+}
+
+.container .text{
+    margin: 0 0.4rem;
+}
+.container h4{
+    font-family: 'Baloo 2', sans-serif;
+}
+.container p{
+    font-family: 'Protest Riot', sans-serif;
+}
